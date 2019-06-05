@@ -61,6 +61,14 @@ const App = () => {
               avatarImg={faker.image.avatar()}
           />
       </ApprovalCard>
+      <ApprovalCard>
+          <CommentDetail
+              author="Mister pa"
+              timeAgo="Tomorrow at 2:00AM"
+              textComment="tu minita"
+              avatarImg={faker.image.avatar()}
+          />
+      </ApprovalCard>
     
     </div>
   );
