@@ -38,18 +38,26 @@ const App = () => {
         />
       </ApprovalCard>
       <ApprovalCard>
-        <CommentDetail 
-          author="Kent B" 
-          timeAgo="Today at 2:00AM" 
-          textComment="Nice blog xp" 
-          avatarImg={faker.image.avatar()} 
-        />
-      </ApprovalCard>
-      <ApprovalCard>
           <CommentDetail
               author="Fulana Ranja"
               timeAgo="Tomorrow at 2:00AM"
               textComment="The Algarrobo cookies are so good"
+              avatarImg={faker.image.avatar()}
+          />
+      </ApprovalCard>
+      <ApprovalCard>
+          <CommentDetail
+              author="Cowboy coder"
+              timeAgo="Tomorrow at 2:00AM"
+              textComment="testing in production is awesome"
+              avatarImg={faker.image.avatar()}
+          />
+      </ApprovalCard>
+      <ApprovalCard>
+          <CommentDetail
+              author="Mister pa"
+              timeAgo="Tomorrow at 2:00AM"
+              textComment="tu minita"
               avatarImg={faker.image.avatar()}
           />
       </ApprovalCard>
